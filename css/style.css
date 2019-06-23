@@ -1,0 +1,203 @@
+*{
+
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    padding: 1px;
+    margin: 15px 150px;
+
+}
+.header-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header a{
+   color: black;
+    font-size: 20px;
+
+}
+header button{
+    display:inline-block;
+    background-color:#007bff;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 4px;
+
+}
+            /*pic sea*/
+#pic-sea{
+    background: url("../images/1-ci shekil.jpg") no-repeat center center;;
+    background-size: cover;
+    text-align: center;
+    padding: 210px;
+  }
+
+#pic-sea p {
+    font-size: 40px;
+    color: white;
+}
+
+.sea-div{
+    margin: 10px 0px 0px 0px;
+}
+
+#pic-sea .sea-div input{
+    padding: 10px 170px 10px 5px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+#pic-sea .sea-div button{
+    background-color:#007bff ;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px 10px;
+    border-color: #007bff ;
+    margin: 15px 0px 10px 5px;
+    border: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.icon-div{
+    background-color: light;
+    display: flex;
+    padding: 180px;
+    align-content: center;
+    text-align: center;
+}
+
+.i-class{
+    width: 70px;
+    height: 60px;
+}
+
+.icon-screen-desktop {
+    font-size: 4.5rem;
+}
+.responsive h3{
+    font-weight: bold;
+    padding:20px 0px 0px 0px;
+}
+
+.responsive:hover i {
+    display: block;
+    transform: scale(1.1,1.1);
+}
+
+.bootstrap{
+
+
+}
+
+.weight{
+    font-size: 4.5rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.1-pic block-item{
+    background-color: white;
+}
+.1-pic h3{
+    font-weight: bold;
+}
+
+.iphone{
+    background-image: url("../images/iphone.jpg");
+    background-repeat:no-repeat; 
+}
+
+.block {
+    display: flex;
+    height: 500px;
+}
+
+.block-item {
+    flex: 1;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.block-inner {
+    width:50%;
+    height: 50%
+}
+.code-img{
+    background-image: url(../images/code.jpg);
+    background-repeat: no-repeat;
+}  
+
+.child{
+     background-image: url(../images/child.jpg);
+    background-repeat: no-repeat;
+}
+.part-people{
+    text-align: center;
+    padding: 200px;
+}
+
+.part-people1{display: flex;}
+
+
+.part-people h3{
+    padding: 20px 0 0 0;
+} 
+
+
+.end-section{
+    background: url("../images/1-ci shekil.jpg") no-repeat center center;;
+    background-size: cover;
+    text-align: center;
+    padding: 140px;
+}
+.end-section h3{
+    font-size: 25px;
+    color: white; 
+
+}
+.end-section .end-div input{
+padding: 10px 170px 10px 5px;
+    font-size: 17px;
+    border-radius: 5px
+
+}
+.end-section .end-div button{
+background-color:#007bff ;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px 10px;
+    border-color: #007bff ;
+    margin: 15px 0px 10px 5px;
+    border: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer{
+    padding: 40px;
+     background-color: white;
+    margin: 15px 150px;
+}
+.margin{
+    margin:0 15px 20px 0;
+}
+.img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 50px;
+}
